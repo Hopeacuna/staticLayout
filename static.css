@@ -1,0 +1,28 @@
+.wrapper {
+    background-color: black;
+}
+
+/* .moviecollage{
+    object-fit: contain;
+    height: 100px;
+    width: 700px;
+} */
+
+a:link
+{
+    color:#FFFFFF;
+}
+
+a:visited
+{
+    color:#FFFFFF;
+}
+
+a:hover 
+{
+    color:#FFFFFF;
+}
+
+#logInButton{
+    justify-content: flex-end;
+}
