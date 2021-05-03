@@ -113,11 +113,23 @@ a:hover
     flex-direction: row;
     justify-content: space-between;
 }
-#logo {
-    height: 40px;
+#logos {
     position: relative;
-    top: 60px;
-    left: 100px;
+    left: 90px;
+}
+#logo1{
+position: relative;
+top: 50px;
+left: 25px;
+
+}
+#logo2{
+    position: relative;
+    top: 50px;
+}
+#logo3{
+    position: relative;
+    top: 30px;
 }
 #bundleDetails {
     position: relative;
@@ -205,12 +217,17 @@ a:hover
     display: flex;
     flex-direction: row;
 }
+.informativeText{
+    position: relative;
+    left: 300px;
+}
 #selectPlan{
     font-family: 'Libre Franklin', sans-serif;
     font-size: 25px;
 }
 #hiddenFees{
     font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
 }
 #switchPlans{
     font-family: 'Libre Franklin', sans-serif;
@@ -219,4 +236,84 @@ a:hover
 .planComparisons{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    left: 500px;
+    padding: 15px 15px;
+    margin: 10px 10px 10px 10px;
+
 }
+/* #mostPopular{
+
+} */
+/* #popularSign{
+    background-color: rgb(126, 150, 151);
+    text-align: center;
+    font-size: 12px;
+    border-radius:10px;
+    padding: 5px 5px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+} */
+#popularSign{
+    background-color: rgb(126, 150, 151);
+    text-align: center;
+    font-size: 12px;
+    border-radius:10px;
+    padding: 5px 5px;
+}
+#huluBasic{
+    color: black;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    position: relative;
+    bottom: 45px;
+}
+#basicTrial{
+    position: relative;
+    bottom: 45px;
+}
+
+#huluWOads{
+    background-color: rgba(128, 128, 128, 0.109);
+    position: relative;
+    bottom: 15px;
+    margin-left: 50px;
+    padding: 15px 15px 15px 15px;
+}
+#huluNoAd{
+    color: black;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    
+}
+#huluAndLive{
+    margin-left: 50px;
+}
+#huluPlusLive{
+    color: black;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    
+}
+
+#trialxDay{
+    color: gray;
+    font-size: 15px;
+    text-align: center;
+}
+#tryFor0{
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    padding: 15px 15px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    top: 60px;
+    display: flex;
+    justify-content: center;
+
+}
+
