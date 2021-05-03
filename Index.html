@@ -1,24 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/projects/staticLayout/static.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;900&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./static.css">
     <title>Index</title>
 </head>
+
 <body>
     <div class="wrapper">
-<header>
-    <!-- <div class="moviecollage">
-        <img src="./movbackground.jpg" alt="collage of films">
-    </div> -->
-    <div id="logInButton">
-    <a href="#">LOG IN</a>
-</div>
-</header>
+        <header>
+            <div class="moviecollage">
+                <div id="logInButton">
+                    <a href="#" id="loginText">LOG IN</a>
+                </div>
+
+                <img src="./assets/final.jpg" id="movieImage" alt="collage of films" />
+                
+            </div>
+            <!-- <div id='backgroundCollage'>placeholder</div> -->
+            
+            <div class="trialSection">
+                <p id="try">TRY UP TO ONE MONTH FREE</p>
+                <h1 id="hulu">hulu</h1>
+                <h5 id="watch">Watch thousands of shows and movies, with plans starting at <br/> $5.99/month</h5>
+                <div id="trialButton">
+                    <a href="https://www.google.com" target='_blank' id="trialText">START YOUR FREE TRIAL</a>
+                </div>
+                <h6 id="trialTerms">Free trial for new & eligible returning subscribers only.</h6>
+            </div>
+        </header>
+
+        <div class="bundleBlueStrip">
+            <div id="logos">
+                <img src="./assets/hululogo.png" id="logo" alt="Hulu Logo" />
+                <img src="./assets/disneypluslogo.png" id="logo" alt="Disney Plus Logo" />
+                <img src="./assets/espnpluslogo.png" id="logo" alt="ESPN Logo" />
+            </div>
+            <div id="bundleDetails">
+                <p id="bundleTextTop">BUNDLE WITH ANY HULU PLAN & SAVE</p>
+                <h5 id="bundleTextMiddle">Get Hulu, Disney+, ESPN+ starting at $13.99/month.</h5>
+                <a href="#" target='_blank' id="details">Details</a>
+            </div>
+            <div class="getBundleButton">
+                <a href="https://www.google.com" target='_blank' id="getBundle">GET BUNDLE</a>
+                <a href="#" target='_blank' id="terms">Terms apply</a>
+            </div>
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <div class="tvYouLove">
+            <div class="tvText">
+            <p id="included">INCLUDED IN ALL PLANS</p>
+            <h2 id="allTheTV">All The TV You Love</h2>
+            <h5 id="streamFull">Stream full seasons of exclusive series, current-season episodes, hit <br/> movies, Hulu Originals, kids shows, and more.</h5>
+            </div>
+            <div class="tvShowImages">
+                <a href="https://www.google.com" target='_blank'><img  src="./assets/huluBob.PNG" id="pastAndCurrent" alt="Past and curent seasons" /></a>
+                <a href="https://www.google.com" target='_blank'><img src="./assets/huluNewClassic.PNG" id="newAndClassic" alt="Movies" /></a>
+                <a href="https://www.google.com" target='_blank'><img src="./assets/huluOrigionals.PNG" id="groundbreaking" alt="Hulu Logo" /></a>
+                <a href="https://www.google.com" target='_blank'><img src="./assets/huluAddOn.PNG" id="addOn" alt="Add-on Premiums" /></a>
+            </div>
+            <div>
+                <h3 id="premiumText">Premium network add-ons available for an additional cost</h3>
+            </div>
+            <br/>
+            <br/>
+            <br/>
+        </div>
+        
+
+        <div class="planSelection">
+            <div class="informativeText">
+                <h3 id="selectPlan">Select Your Plan</h3>
+                <h3 id="hiddenFees">No hidden fees, equipment rentals, or installation <br/>appointments.</h3>
+                <h3 id="switchPlans">Switch plans or cancel anytime.** </h3>
+            </div>
+            <div class="planComparisons">
+            <div id="mostPopular"></div>
+            <div id="huluNoAd"></div>
+            <div id="huluAndLive"></div>
+        </div>
+        </div>
 
 
     </div>
 </body>
+
 </html>

@@ -2,27 +2,221 @@
     background-color: black;
 }
 
-/* .moviecollage{
+.moviecollage{
     object-fit: contain;
-    height: 100px;
-    width: 700px;
+}
+#movieImage{
+    /* height: 50vh; */
+    width: 100vw;
+    opacity: 0.4;
+}
+
+/* #backgroundCollage{
+    background-image: url('./movbackground.jpg');
+    object-fit: contain;
 } */
+
+p {
+    color: rgb(55, 194, 78);
+    font-family: 'Noto Sans JP', sans-serif;
+}
+h1 {
+    color: rgb(55, 194, 78);
+    font-family: 'Zen Dots', cursive;
+    font-size: 100px;
+}
+h5 {
+    color: white;
+    font-size: 30px;
+
+}
+
 
 a:link
 {
-    color:#FFFFFF;
+    text-decoration: none;
 }
 
 a:visited
 {
-    color:#FFFFFF;
+    text-decoration: none;
 }
 
 a:hover 
 {
-    color:#FFFFFF;
+    text-decoration: none;
 }
 
 #logInButton{
-    justify-content: flex-end;
+    float: right;
+    color: white !important;
+}
+#logInButton:hover{
+    opacity: 0.8;
+}
+#loginText {
+    color: white;
+}
+
+
+.trialSection{
+    text-align: center;
+    position: absolute;
+    top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#try {
+    position: relative;
+    top: 50px;
+    font-size: 13px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+#watch {
+    position: relative;
+    bottom: 50px;
+}
+
+#trialButton{
+    background-color: white;
+  border: solid white;
+  border-radius: 5px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: relative;
+  bottom: 30px;
+}
+#trialText{
+    color: black;
+}
+#trialButton:hover {
+    opacity: 0.8;
+}
+#trialTerms {
+    font-size: 8px;
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+    position: relative;
+    bottom: 45px;
+}
+.bundleBlueStrip{
+    background: rgb(8,56,69);
+    background: linear-gradient(90deg, rgba(8,56,69,1) 24%, rgba(0,90,115,1) 100%);
+}
+.bundleBlueStrip {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#logo {
+    height: 40px;
+    position: relative;
+    top: 60px;
+    left: 100px;
+}
+#bundleDetails {
+    position: relative;
+    right: 130px;
+}
+#bundleTextTop{
+    font-size: 13px;
+    position: relative;
+    top: 20px;
+}
+#bundleTextMiddle{
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    bottom: 10px;
+}
+#details{
+    color: white;
+    position: relative;
+    bottom: 40px;
+}
+#getBundle{
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    padding: 15px 15px;
+    position: relative;
+    color: white;
+    font-size: 15px;
+    top: 60px;
+
+}
+#terms {
+    color: white;
+    position: relative;
+    top: 100px;
+    right: 110px;
+}
+.tvText{
+    text-align: center;
+    color: white;
+}
+#included{
+    font-size: 15px;
+    position: relative;
+}
+#allTheTV{
+    font-size: 80px;
+    position: relative;
+    bottom: 50px;
+}
+#streamFull{
+    position: relative;
+    bottom: 70px;
+    font-family: 'Lato', sans-serif;
+}
+.tvShowImages {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    bottom: 50px;
+}
+#pastAndCurrent {
+    margin: 10px;
+}
+#newAndClassic{
+    margin: 10px;
+}
+#groundbreaking{
+    margin: 10px;
+}
+#addOn {
+    margin: 10px;
+    
+}
+#premiumText{
+    color: white;
+    position: relative;
+    font-size: 10px;
+    left: 1280px;
+    bottom: 50px;
+}
+.planSelection{
+    background: white;
+    display: flex;
+    flex-direction: row;
+}
+#selectPlan{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 25px;
+}
+#hiddenFees{
+    font-size: 15px;
+}
+#switchPlans{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 15px;
+}
+.planComparisons{
+    display: flex;
+    flex-direction: row;
 }
